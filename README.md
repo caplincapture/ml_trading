@@ -1,6 +1,6 @@
 # ml_trading
 
-###Lesson summary 
+# Lesson 3 summary 
 To read multiple stocks into a single dataframe, you need to: 
 Specify a set of dates using pandas.date_range 
 Create an empty dataframe with dates as index 
