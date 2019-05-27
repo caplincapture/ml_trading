@@ -19,8 +19,8 @@ def get_data(symbols, dates):
         usecols =['Date', 'Adj Close'],
         na_values = ['nan'])
         df_temp = df_temp.rename(columns = {'Adj Close': symbol})
-        df_temp = df.join(df_temp, how = 'inner')
-    return df_temp
+        df = df.join(df_temp, how = 'inner')
+    return df
 
 
 def test_run():
